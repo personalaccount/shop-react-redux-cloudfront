@@ -1,4 +1,4 @@
-service: node-in-aws-web
+service: rs-task2-node-in-aws
 
 frameworkVersion: '2'
 
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: rs-task2-node-in-aws
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
