@@ -1,11 +1,3 @@
-#Task 2 Links
-
-S3 Bucket: http://rs-task2.s3-website.eu-central-1.amazonaws.com
-CloudFront: https://d12x7htpt5tape.cloudfront.net
-
-S3 Bucket Serverless: http://rs-task2-node-in-aws.s3-website-us-east-1.amazonaws.com
-CloudFront: https://d20mpstt6ridw6.cloudfront.net
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
