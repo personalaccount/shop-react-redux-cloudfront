@@ -13,12 +13,12 @@
 
 service: rs-school-app-2022
 # app and org for use with dashboard.serverless.com
-#app: your-app-name
-#org: your-org-name
+app: rs-school-app-2022
+org: username0100
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 provider:
   name: aws
@@ -36,7 +36,8 @@ custom:
     indexDocument: index.html
     manageResources: false
   ## Serverless-single-page-app-plugin configuration:
-  s3LocalPath: ${self:custom.client.distributionFolder}/
+  #s3LocalPath: ${self:custom.client.distributionFolder}
+  s3LocalPath: build/
   s3BucketName: ${self:custom.client.bucketName}
 
 # you can overwrite defaults here
